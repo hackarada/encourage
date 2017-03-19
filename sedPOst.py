@@ -4,7 +4,7 @@ import random
 import time
 
 print("#####################################################################################")
-ser = serial.Serial('platform-3f980000.usb-usb-0:1.2:1,0', 9600)
+ser = serial.Serial('/dev/serial/by-path/platform-3f980000.usb-usb-0:1.2:1,0', 9600)
 
 while True:
 	
@@ -29,4 +29,3 @@ while True:
 	time.sleep(10)
 
 
-platform-3f980000.usb-usb-0:1.2:1,0
